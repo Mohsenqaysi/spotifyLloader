@@ -86,7 +86,6 @@ class ViewController: UIViewController {
 }
 
 extension CAShapeLayer {
-    
     func circleLayer(center: UIView, radius: CGFloat, fillColor: CGColor) -> CAShapeLayer {
         // drow a circle
         let shapeLayer = CAShapeLayer()
